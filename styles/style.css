@@ -233,6 +233,14 @@ Table Block:
   margin-top: 80px;
 }
 
+.table__heading {
+  color: white;
+}
+
+.tabel__text {
+  color: white;
+}
+
 /*
 Feynman Block:
 */
