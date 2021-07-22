@@ -19,6 +19,7 @@ Header Block:
   max-height: 756px;
   background-color: #f2f2f2;
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
 }
