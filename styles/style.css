@@ -302,4 +302,51 @@ Feynman Block:
   z-index: 2;
 }
 
+/*
+Footer block:
+*/
+
+.footer {
+  padding: 60px 100px 40px 100px;
+  min-height: 350px;
+  background-color: #1f1f1f;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__author {
+  color: white;
+  margin: 18px 0;
+}
+
+.footer__column-heading {
+  margin: 0;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__link {
+  text-decoration: none;
+
+}
+
 /* modifiers */
+.footer__column_content_copyright {
+  justify-content: space-between;
+  flex-basis: 711px;
+  align-items: flex-start;
+}
