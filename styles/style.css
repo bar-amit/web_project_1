@@ -9,6 +9,12 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.description {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+}
+
 /*
 Header Block:
 */
@@ -79,6 +85,45 @@ Header Block:
   left: 64px;
   content: url('../images/logo_place_header.png');
   z-index: 2;
+}
+
+/*
+Two-columns Block:
+*/
+
+.two-columns {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.two-columns__brief {
+  width: 175px;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 /* including elements with key-value modifiers */
