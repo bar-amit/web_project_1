@@ -115,6 +115,7 @@ Header Block:
 }
 
 .header__title{
+  margin: 0;
   width: 730px;
   line-height: 96px;
   font-size: 102px;
@@ -124,6 +125,7 @@ Header Block:
 }
 
 .header__subtitle {
+  margin: 0;
   width: 388px;
   line-height: 25px;
   font-size: 18px;
@@ -171,6 +173,7 @@ Two-columns Block:
 }
 
 .two-columns__brief {
+  margin: 0;
   width: 175px;
   color: #2f80ed;
   line-height: 1.2;
