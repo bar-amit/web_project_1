@@ -47,6 +47,7 @@ Header Block:
 .header__link {
   display: block;
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .header__square-pic {
