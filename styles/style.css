@@ -198,4 +198,65 @@ Table Block:
   margin-top: 80px;
 }
 
+/*
+Feynman Block:
+*/
 
+.feynman {
+  height: 790px;
+  padding-top: 100px;
+  background-color: #f2f2f2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.feynman__title {
+  width: 775px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 70px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.feynman__subtitle {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 2;
+}
+
+.feynman__image {
+  width: 867px;
+  height: 637px;
+  content: url('../images/feynman.png');
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  padding: 0;
+  margin: 0;
+  color: #2f80ed;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+  z-index: 2;
+}
+
+/* modifiers */
