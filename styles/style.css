@@ -51,6 +51,7 @@ Section-title & Section-subtitle Blocks:
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
+  z-index: 2;
 }
 
 .section-subtitle {
@@ -60,6 +61,7 @@ Section-title & Section-subtitle Blocks:
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  z-index: 2;
 }
 
 /* modifiers: */
@@ -233,11 +235,11 @@ Table Block:
   margin-top: 80px;
 }
 
-.table__heading {
+.table__heading_theme_dark {
   color: white;
 }
 
-.tabel__text {
+.tabel__text_theme_dark {
   color: white;
 }
 
