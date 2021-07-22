@@ -9,19 +9,74 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/*
+Header Block:
+*/
+
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* parameters for the header section */
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
+.header__title{
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  margin-left: 64px;
+  z-index: 2;
+}
+
+.header__subtitle {
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 2;
+}
+
+.header__link {
+  display: block;
+  color: #2f80ed;
+}
+
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0px;
   background-color: #2f80ed;
+  z-index: 0;
+}
+
+.header__main-illustration {
+  width: 756px;
+  height: 608px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+}
+
+/* modefiers: */
+
+.logo_place_header{
+  width: 154px;
+  height: 31px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  content: url('../images/logo_place_header.png');
+  z-index: 2;
 }
 
 /* including elements with key-value modifiers */
@@ -32,6 +87,4 @@
   margin-top: 80px;
 }
 
-.logo_place_header{
-  content: url('../images/logo_place_header.png');
-}
+
