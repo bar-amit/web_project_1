@@ -33,7 +33,6 @@
 }
 
 .kaufman__triangle {
-  content: url('../images/kaufman-triangle.svg');
   position: absolute;
   right: -124px;
   z-index: 1;
@@ -85,7 +84,6 @@ Logo block:
 /* modefiers: */
 
 .logo_place_header{
-  content: url('../images/logo_place_header.png');
   width: 154px;
   height: 31px;
   position: absolute;
@@ -305,7 +303,6 @@ Feynman Block:
 .feynman__image {
   width: 867px;
   height: 637px;
-  content: url('../images/feynman.png');
   position: absolute;
   left: 0;
   bottom: 0;
