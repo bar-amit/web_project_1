@@ -33,6 +33,8 @@
 }
 
 .kaufman__triangle {
+  width: 660px;
+  height: 636px;
   position: absolute;
   right: -124px;
   z-index: 1;
